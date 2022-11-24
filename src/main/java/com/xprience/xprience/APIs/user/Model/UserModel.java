@@ -10,5 +10,11 @@ import javax.persistence.Entity;
 @Getter
 @Setter
 public class UserModel extends AbstractPersistable<Long> {
+    String name;
+    String age;
+    String gender;
+    String country;
+    String phoneNumber;
+    String email;
 
 }
